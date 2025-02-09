@@ -1,7 +1,15 @@
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-end
 set -U fish_greeting
-alias nvim=/snap/bin/nvim
-export EDITOR=/snap/bin/nvim
+export EDITOR
+alias vimconfig="nvim ~/.config/nvim"
+
+function temple
+    cd ~/Documents/Oracle\'s\ Temple
+end
+
+function newtmux
+    tmux new -s $argv[1] \; detach
+    tmux source-file ~/tmux.conf
+    tmux attach-session -t $argv[1]
+end
+
 starship init fish | source
