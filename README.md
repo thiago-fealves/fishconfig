@@ -18,10 +18,10 @@ git clone https://github.com/thiago-fealves/fishconfig ~/.config/fish
 
 # ⚡ Aliases e Funções
 
-- vimconfig: Abre a configuração do Neovim (nvim ~/.config/nvim)
-- temple: Atalho para acessar minha pasta de desenvolvimento
-- github: Atalho para acessar a pasta de projetos do GitHub
-- newtmux <nome>: Cria e anexa a uma nova sessão do tmux
+- `vimconfig`: Abre a configuração do Neovim (nvim ~/.config/nvim)
+- `temple`: Atalho para acessar minha pasta de desenvolvimento
+- `github`: Atalho para acessar a pasta de projetos do GitHub
+- `newtmux <nome>`: Cria e anexa a uma nova sessão do tmux
 
 # 🚀 Aparência e Estilo
 - Usa Starship como prompt customizado
