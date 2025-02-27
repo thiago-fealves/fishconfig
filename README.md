@@ -14,7 +14,7 @@ Esta configuração do Fish foi criada para otimizar meu workflow manter a simpl
 ```sh
 git clone https://github.com/thiago-fealves/fishconfig ~/.config/fish
 ```
-2. Reinicie o terminal ou execute exec fish para aplicar as configurações.
+2. Reinicie o terminal ou execute `exec fish` para aplicar as configurações.
 
 # ⚡ Aliases e Funções
 
