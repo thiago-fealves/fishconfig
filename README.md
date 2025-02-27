@@ -1,53 +1,34 @@
-🐟 Fish Shell Config
+# 🐟 Fish Shell Config
 
-Esta configuração do Fish foi criada para otimizar meu workflow mantendo a simplicidade. Valorizo rapidez e praticidade no terminal, usando atalhos e personalizações para melhorar minha experiência.
+Esta configuração do Fish foi criada para otimizar meu workflow manter a simplicidade no terminal sem abrir mão da beleza. Valorizo rapidez e praticidade na experiência em CLI, por isso minhas configs contam com aliases que ajudam a acelerar o desenvolvimento e a navegação
 
-📥 Instalação
+# 📥 Instalação
 
-Requisitos:
+**Requisitos:**
+- Fish Shell
+- Git
+- Starship (para o prompt customizado)
 
-Fish Shell
-
-Git
-
-Starship (para o prompt customizado)
-
-Passos:
-
+**Passos:**
 Clone o repositório:
-
+```sh
 git clone https://github.com/thiago-fealves/fishconfig ~/.config/fish
+```
+- Reinicie o terminal ou execute exec fish para aplicar as configurações.
 
-Reinicie o terminal ou execute exec fish para aplicar as configurações.
+# ⚡ Aliases e Funções
 
-⚡ Funcionalidades e Aliases
+- vimconfig: Abre a configuração do Neovim (nvim ~/.config/nvim)
+- temple: Atalho para acessar minha pasta de desenvolvimento
+- github: Atalho para acessar a pasta de projetos do GitHub
+- newtmux <nome>: Cria e anexa a uma nova sessão do tmux
 
-🌟 Aliases e Funções
-
-vimconfig: Abre a configuração do Neovim (nvim ~/.config/nvim)
-
-temple: Atalho para acessar a pasta "Oracle's Temple"
-
-github: Atalho para acessar a pasta de projetos do GitHub
-
-newtmux <nome>: Cria e anexa a uma nova sessão do tmux
-
-🚀 Prompt e Estilo
-
-Usa Starship como prompt customizado
-
-Configuração baseada no tema Catppuccin Macchiato
-
-Ícones da fonte Hack Nerd Font
-
-🎨 Aparência
-
-Starship.toml define o layout do prompt e a paleta de cores
-
-Suporte a temas com Catppuccin
-
-Ícones personalizados para melhor visualização
+# 🚀 Aparência e Estilo
+- Usa Starship como prompt customizado
+- Cores personalizadas que foram baseadas no tema Catpuccin, adaptadas para funcionarem com um terminal com o esquema de cores Neon Lights
+- Nerd Font Icons
+- Hack Nerd Font
 
 🛠 Manutenção e Personalização
 
-Essa configuração pode ser ajustada conforme necessário. Caso queira modificar algo, basta editar os arquivos dentro de ~/.config/fish/. Sugestões e melhorias são sempre bem-vindas!
+Essa configuração pode ser ajustada conforme necessário. Caso queira modificar algo, basta editar os arquivos dentro de `~/.config/fish/` e no `starship.toml`. Sugestões e melhorias são sempre bem-vindas!
