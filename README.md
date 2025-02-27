@@ -23,7 +23,7 @@ git clone https://github.com/thiago-fealves/fishconfig ~/.config/fish
 - `github`: Atalho para acessar a pasta de projetos do GitHub
 - `newtmux <nome>`: Cria e anexa a uma nova sessão do tmux
 
-# 🚀 Aparência e Estilo
+# 🎨 Aparência e Estilo
 - Usa Starship como prompt customizado
 - Cores personalizadas que foram baseadas no tema Catpuccin, adaptadas para funcionarem com um terminal com o esquema de cores Neon Lights
 - Nerd Font Icons
