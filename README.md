@@ -9,6 +9,7 @@ Esta configuração do Fish foi criada para otimizar meu workflow manter a simpl
 - Fish Shell
 - Git
 - Starship (para o prompt customizado)
+- Eza
 
 **Passos:**
 1. Clone o repositório:
