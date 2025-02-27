@@ -10,11 +10,11 @@ Esta configuração do Fish foi criada para otimizar meu workflow manter a simpl
 - Starship (para o prompt customizado)
 
 **Passos:**
-Clone o repositório:
+1. Clone o repositório:
 ```sh
 git clone https://github.com/thiago-fealves/fishconfig ~/.config/fish
 ```
-- Reinicie o terminal ou execute exec fish para aplicar as configurações.
+2. Reinicie o terminal ou execute exec fish para aplicar as configurações.
 
 # ⚡ Aliases e Funções
 
