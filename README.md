@@ -33,3 +33,4 @@ git clone https://github.com/thiago-fealves/fishconfig ~/.config/fish
 # 🛠 Manutenção e Personalização
 
 Essa configuração pode ser ajustada conforme preferência do usuário. Caso queira modificar algo, basta editar os arquivos dentro de `~/.config/fish/` e no `starship.toml`. Sugestões e melhorias são sempre bem-vindas!
+
