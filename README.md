@@ -1,4 +1,5 @@
 # 🐟 Fish Shell Config
+<img width="1676" alt="image" src="https://github.com/user-attachments/assets/77d09b92-1c7b-4ce3-b292-43c08253846c" />
 
 Esta configuração do Fish foi criada para otimizar meu workflow manter a simplicidade no terminal sem abrir mão da beleza. Valorizo rapidez e praticidade na experiência em CLI, por isso minhas configs contam com aliases que ajudam a acelerar o desenvolvimento e a navegação
 
