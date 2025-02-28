@@ -2,6 +2,7 @@ set -U fish_greeting
 export EDITOR
 alias vimconfig="nvim ~/.config/nvim"
 alias ls="eza"
+alias fastfetch="fastfetch --logo-color-1 cyan --color-keys cyan --color-title blue"
 
 function temple
     cd ~/Documents/Oracle\'s\ Temple
