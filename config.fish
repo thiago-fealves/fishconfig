@@ -7,7 +7,9 @@ alias fastfetch="fastfetch --logo-color-1 cyan --color-keys cyan --color-title b
 function temple
     cd ~/Documents/Oracle\'s\ Temple
 end
-
+function neofetch
+  fastfetch --logo-type kitty-direct --logo ~/.config/makotoicon.png --logo-width 45 --logo-height 20
+end
 function github
   cd ~/Documents/GitHub
 end
