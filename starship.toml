@@ -2,7 +2,7 @@ format = "$all"
 add_newline = false
 # Sets user-defined palette
 palette = "catppuccin_macchiato"
-command_timeout = 5
+command_timeout = 2
 
 [character]
 # Note the use of Catppuccin color 'maroon'
@@ -14,6 +14,9 @@ vicmd_symbol = "[❮](green)"
 truncation_length = 10
 # Catppuccin 'lavender'
 style = "bold blue"
+
+[git_branch]
+style = "sky"  # Ou qualquer cor da sua paleta
 
 # palette tables should be last in the config ⚓️
 [palettes.catppuccin_macchiato]
@@ -172,3 +175,5 @@ disabled = true
 
 [c]
 disabled = true
+
+
